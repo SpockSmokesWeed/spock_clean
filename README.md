@@ -10,4 +10,12 @@ Smooth Camera Interactions: Manage NUI focus seamlessly.
 Configurable: Fully customizable via config.lua.
 
 
+Instructions:
+
+1. Download zip from github.
+2. Extract the "spock_clean" folder into your resources. Make sure the folder has the necessary sub categories (client, html, locales, server and shared). There might be two folders, I apologize in advance.
+3. Write "ensure spock_clean" inside your server.cfg.
+4. Launch the server and open the menu with /clearped. 
+
+
 Support: https://www.youtube.com/c/SpocksFridayNights
