@@ -2,16 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('startButton').addEventListener('click', startClearing);
     document.getElementById('stopButton').addEventListener('click', stopClearing);
     document.getElementById('closeButton').addEventListener('click', closeMenu);
-    document.getElementById('youtubeLink').addEventListener('click', function(e) {
-        e.preventDefault();
-        fetch(`https://${GetParentResourceName()}/openLink`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json; charset=UTF-8'
-            },
-            body: JSON.stringify({ url: 'https://www.youtube.com/c/SpocksFridayNights' })
-        });
-    });
 });
 
 let config = {};
@@ -29,8 +19,6 @@ window.addEventListener('message', function(event) {
         } else {
             document.getElementById('menu').style.display = 'none';
         }
-    } else if (event.data.type === 'openLink') {
-        window.open(event.data.url, '_blank');
     }
 });
 

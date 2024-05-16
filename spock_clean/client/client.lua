@@ -103,22 +103,6 @@ AddEventHandler('trackPlayerVehicle', function(vehicle)
     playerVehicles[vehicle] = true
 end)
 
-RegisterNUICallback('openLink', function(data, cb)
-    local url = data.url
-    if url then
-        TriggerServerEvent('openLink', url)
-    end
-    cb('ok')
-end)
-
-RegisterNetEvent('openLink')
-AddEventHandler('openLink', function(url)
-    SetNuiFocus(false, false) -- Ensure NUI focus is off
-    SendNUIMessage({
-        type = 'openLink',
-        url = url
-    })
-end)
 
 -- Handle synchronization of player vehicles
 RegisterNetEvent('syncPlayerVehicles')
