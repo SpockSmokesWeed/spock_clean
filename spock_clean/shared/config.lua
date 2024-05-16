@@ -3,7 +3,7 @@ Config = {}
 
 Config.Language = 'en' -- Default language: 'en', 'pt', 'de', 'fr', 'es'
 
-Config.Framework = 'esx' -- Options: 'esx', 'qb', 'standalone'
+Config.Framework = 'esx' -- Options: 'esx', 'qbcore', 'standalone'
 
 -- Option 1: Detection radius for AI ped vehicles
 Config.DetectionRadius = 100.0  -- Default is 100.0, can be adjusted as needed (WARNING: CPU useage may increase!)
