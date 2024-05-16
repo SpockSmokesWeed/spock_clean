@@ -1,3 +1,4 @@
+Simple command. Use "/clearped" to bring up the menu.
 Menu-Based Interface: Easily clear nearby AI vehicles with a user-friendly menu.
 Configurable Radius: Adjust the detection radius for vehicle deletion.
 Notification System: Choose between okokNotify and default ESX notifications.
