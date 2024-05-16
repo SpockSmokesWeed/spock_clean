@@ -18,4 +18,4 @@ Instructions:
 4. Launch the server and open the menu with /clearped. 
 
 
-Support: https://www.youtube.com/c/SpocksFridayNights
+Support: https://discord.gg/UJP7ZK8tyd
